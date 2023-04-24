@@ -1,0 +1,22 @@
+
+document.write('<style>.jb_news_yiyuan{ weight:100%;}</style>
+<div class="jb_news_yiyuan"><img src="http://staticsimg.niudaicms.com/upload/2017/04/26/76159426be5741eb5b4c5b0ae672f932.jpg" /></div>
+
+<!--<style type="text/css">
+			.tiwen{
+				position: fixed;
+				right:3%;
+				top:74%;
+				height:165px;
+				width:353px; z-index:9999;
+			}     
+			.tiwen img{
+				height:165px;
+				width:353px;
+			}                                                                                                         
+		</style>
+		<div class="tiwen">
+			<img src="http://v.niudai120.com/uploads/999ask/20171019/153912_21704.gif" />
+		</div>-->
+
+');

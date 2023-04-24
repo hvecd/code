@@ -1,0 +1,178 @@
+/* usually */
+html{font-size: 62.5%; color: #2e2e2e; font-family: "MicroSoft YaHei";}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+ul,ol,li{list-style:none;}
+a{text-decoration: none;color:#585858}
+.auto{margin-left:auto;margin-right:auto;}
+.l{float:left;}.r{float:right;}.tc{text-align: center;}
+.db{display:block;}.dn{display:none;}.dib{display: inline-block;}
+.ovh{overflow:hidden;}.rel{position:relative;}.abs{position:absolute;}
+.fix::after{display:block;content:"clear";height:0;clear:both;overflow:hidden;visibility:hidden;}
+.rel{position:relative;}.abs{position:absolute;}
+.img-responsive{max-width: 100%; height: auto; display: block;}
+.ellipsis{text-overflow: ellipsis; overflow: hidden; display: block; white-space: nowrap;}
+.dn{display:none}
+.coll{color:#ff0000}
+/*margin*/
+.m0{margin: 0px;}
+.m1{margin: 1px;}.ml1{margin-left: 1px;}.mt1{margin-top: 1px;}.mr1{margin-right: 1px;}.mb1{margin-bottom: 1px;}
+.m2{margin: 2px;}.ml2{margin-left: 2px;}.mt2{margin-top: 2px;}.mr2{margin-right: 2px;}.mb2{margin-bottom: 2px;}
+.m5{margin: 5px;}.ml5{margin-left: 5px;}.mt5{margin-top: 5px;}.mr5{margin-right: 5px;}.mb5{margin-bottom: 5px;}
+.m10{margin: 10px;}.ml10{margin-left: 10px;}.mt10{margin-top: 10px;}.mr10{margin-right: 10px;}.mb10{margin-bottom: 10px;}
+.m15{margin: 15px;}.ml15{margin-left: 15px;}.mt15{margin-top: 15px;}.mr15{margin-right: 15px;}.mb15{margin-bottom: 15px;}
+.m20{margin: 20px;}.ml20{margin-left: 20px;}.mt20{margin-top: 20px;}.mt30{margin-top: 30px;}.mr20{margin-right: 20px;}.mb20{margin-bottom: 20px;}
+/*padding*/
+.p0{padding: 0px;}
+.p1{padding: 1px;}.pl1{padding-left: 1px;}.pt1{padding-top: 1px;}.pr1{padding-right: 1px;}.pb1{padding-bottom: 1px;}
+.p2{padding: 2px;}.pl2{padding-left: 2px;}.pt2{padding-top: 2px;}.pr2{padding-right: 2px;}.pb2{padding-bottom: 2px;}
+.p5{padding: 5px;}.pl5{padding-left: 5px;}.pt5{padding-top: 5px;}.pr5{padding-right: 5px;}.pb5{padding-bottom: 5px;}
+.p10{padding: 10px;}.pl10{padding-left: 10px;}.pt10{padding-top: 10px;}.pr10{padding-right: 10px;}.pb10{padding-bottom: 10px;}
+.p15{padding: 15px;}.pl15{padding-left: 15px;}.pt15{padding-top: 15px;}.pr15{padding-right: 15px;}.pb15{padding-bottom: 15px;}
+.p20{padding: 20px;}.pl20{padding-left: 20px;}.pt20{padding-top: 20px;}.pr20{padding-right: 20px;}.pb20{padding-bottom: 20px;}
+
+
+/* 整体布局 */
+.container{ width:1200px; margin-left: auto; margin-right: auto;}
+.m-img{display: block; margin:0 auto;}
+.ti2{text-indent: 2em;}
+
+/*logo*/
+body{border-top:2px solid #0092dd;}
+h2{font-size:20px;border-bottom: 1px solid #eeeeee;line-height:30px;margin:0 0 15px;padding-bottom:5px;font-weight:normal}
+h2 a{ color: #343434;border-left:none;padding-left:0}
+h2 em{font-style:normal;color:#0097E0;font-weight: bold}
+.head-full{box-shadow: 0px 2px 4px #ccc;padding:10px 0}
+.m-logo{margin: 1px 0 0 1px;}
+.head-full ul{margin-left:40px}
+.head-full ul li{line-height: 50px;font-size: 17px;color: #333;float: left;margin: 0 33px 0 0;overflow: hidden;}
+.head-full ul li a:hover{color: #0097E0;}
+.search-box{margin-top:10px}
+.search-txt{font-size:15px; border: 1px solid #0097E0;line-height:30px;padding-left:30px;background: url(../images/search-icon.jpg) 6px center no-repeat;outline: none;background-size:20px;float:left}
+.search-btn{border: 1px solid #0097E0;background: #0097E0;color: #fff; width:50px; line-height: 30px;font-size:15px; font-weight: bold;float:left}
+
+.area-list{padding: 8px 0;box-shadow: 0px 0px 5px #ccc;margin-top: 20px;}
+.area-list dl {margin: 0 15px 0;overflow: hidden;font-size: 15px;}
+.area-list dl dt {width: 90px;line-height: 28px;color: #aaa;float: left;margin: 7px 0 0 0;}
+.area-list dl dd {width: 1080px;float: left;}
+.area-list dl dd a {line-height: 28px;color: #333;padding: 0 1%;float: left;margin: 7px 7px 0 0;border-radius: 22px;}
+.area-list dl dd a:hover,.area-list dl dd a.cur {background: #0097E0;color: #fff;}
+
+.main-cont{box-shadow: 0px 0px 5px #ccc;margin: 20px 0;padding:10px;overflow:hidden}
+.curpos {border-bottom: 1px solid #eee;padding: 5px 0 10px;font-size: 15px;overflow:hidden;}
+.curpos dt {line-height: 16px;color: #aaa;float: left;overflow: hidden}
+.curpos dd {float: left;}
+.curpos dd a {color: #333;}
+.curpos a:hover {color: #0097E0;}
+
+.left-con{width:860px;margin-top:15px}
+.hosp-list li{float: left;width:23%;margin:1%}
+.hosp-list a strong {width: 100%;line-height: 20px;font-size: 15px;color: #333;margin: 8px 0 0;display: block;text-align:center;overflow:hidden;height:20px;font-weight:normal}
+.hosp-list a .img{width: 100%;height: 130px;display: block;overflow: hidden;}
+.hosp-list a .img img{width: 100%;min-height: 130px;}
+.hosp-list a p{width: 100%;line-height: 22px;font-size: 13px; font-weight: normal;color: #aaa; margin: 4px 0 0 0;}
+.yy-type li{width:18%}
+
+
+.right-con{width:300px}
+.news-list{margin:15px 0;}
+.news-list li{margin: 11px 0 0;overflow:hidden}
+.news-list li i{width: 20px;line-height: 20px;background: #aaa;border-radius: 4px; font-size: 12px;color: #fff;font-style: normal;text-align: center;display: inline-block;float:left}
+.news-list li:nth-child(1) i {background: #e84440;}
+.news-list li:nth-child(2) i {background: #ff8400;}
+.news-list li:nth-child(3) i {background: #ffbe00;}
+.news-list li a{line-height: 20px;font-size: 14px;color: #333;margin: 0 0 0 8px;float:left;width:259px;overflow:hidden;height:20px}
+.news-list li a:hover{color:#0097E0}
+.txt-pic li{float:left;margin:2%;width:46%;text-align:center;font-size:15px}
+.txt-pic a .img{width: 100%;height: 100px;overflow: hidden;margin-bottom:10px}
+.txt-pic li img{max-width:100%;min-height: 100px;}
+.txt-pic li p{height:20px;line-height:20px;overflow:hidden}
+
+.news li{margin:1% 2%;font-size:14px;line-height:26px;float:left;width:46%}
+.news li strong{font-size:16px}
+
+.newslist li{overflow:hidden;font-size:15px;margin:2px 10px;border-bottom:1px dashed #DFDFDF;padding:6px 0;line-height:1.6;float:left;width:410px}
+.newslist li h5{color:#0093DA;font-size:16px;}
+
+
+
+
+/*page*/
+.page-list {clear: both;margin: 20px auto 30px auto;padding-top: 10px;overflow: hidden;text-align: center;font-size: 14px;}
+.page-list li {display: inline-block;border: 1px solid #ccc;padding: 0px 10px;margin: 5px 1px;line-height: 24px;background: #fff;color: #999;border-radius: 2px}
+.page-list li:hover {background: #029AE6;color: #fff;border: 1px solid #029AE6}
+.page-list li:hover a {color: #fff;}
+.page-list li.thisclass {display: inline-block;border: 1px solid #029AE6;padding: 0 10px;margin: 0 1px;background: #029AE6;color: #fff;}
+.page-list li.thisclass a {color: #fff;}
+.page-list li a {display: block;color: #999}
+.page-list li a:hover {color: #fff;}
+
+.page{margin:20px auto;text-align:center;font-size: 14px;}
+.page a{display: inline-block;border: 1px solid #ccc;padding: 0px 10px;margin: 5px 2px;line-height: 24px;background: #fff;color: #999;border-radius: 2px}
+.page a:hover,.page a.on{background: #029AE6;color: #fff;border: 1px solid #029AE6}
+.page a.unclick,.page a.unclick:hover{background:none;border:1px solid #ccc;color:#999;cursor:default;}
+
+.article-title{text-align:center;font-size:18px;color:#029AE6;margin-bottom:10px}
+.cont-date{ padding: 8px 0;border-bottom: 1px solid #eee;color:#999;font-size:13px;text-align:center}
+.article-content{font-size:15px;line-height:26px;margin:20px 0;text-indent:2em}
+.article-content img{height:auto !important;width:auto !important;max-width:100%;text-indent:0;display:block;margin:10px auto}
+.hospital_public{font-size:17px;color: #1b8adf;padding: 6px;background-color: #ecf4fc;border-bottom: 1px solid #959595;margin:3% 0;}
+
+.likearticle{padding:2px 0 10px; margin:13px 2%; border-bottom:12px solid #fff;font-size:15px;}
+.likearticle ul{margin:0 2%;}
+.likearticle ul li{ border-bottom:1px dotted #fda886; padding:10px 0 10px 6px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;position:relative;padding-left:15px}
+.likearticle ul li::before{position: absolute;content: ""; width: 4px;height: 4px; border-radius: 50%; background: #585858;left: 0; top: 50%; margin-top: 1px;}
+.likearticle ul li a{color:#404040;}
+.likeart-yy .txt-pic li{width:29.33%;margin:5px 2%}
+.m-next {font-size: 15px;font-weight: bold;color: #333;margin: 20px 0 0 0;}
+.m-next span { display: block;margin: 15px 0 0;}
+.m-next a {color: #333;font-weight: normal;}
+.m-next a:hover,.likearticle ul li a:hover,.txt-pic li a:hover{color:#0097E0}
+
+.resultlist .hosp-list li{width:18%;}
+.page-tab{margin:10px auto;width:90%;text-align:center;}
+.page-tab td a{display: inline-block;border: 1px solid #ccc;padding: 0px 10px;margin: 5px 2px;line-height: 24px;background: #fff;color: #999;border-radius: 2px}
+
+.index-box {margin-top:20px}
+.index-box .left-con{width:845px;margin-top:0}
+.index-box .news-list{margin-top:5px}
+.index-box .right-con{width:330px}
+.yy-nav a{display:inline-block;background:#0097E0;width:146px;text-align:center;color:#fff;margin:10px;padding:8px 0;font-size:16px}
+
+
+/*footer*/
+.footer{border-top: 1px solid #0093dd;padding: 15px 0 10px;text-align: center;margin-top:10px; }
+.footer img{margin-bottom:10px}
+.footer p{font-size: 14px;padding-top:5px;line-height:21px;}
+.footer p a{color:#2e2e2e}
+
+/*sitemap*/
+.linkbox{padding:10px 15px 0}
+.linkbox h3{border-bottom:1px solid #EDEDED;color:#046693;font-size:16px;line-height:30px;margin-bottom:15px}
+.linkbox h3 a{display:inline-block;border-bottom:2px solid #0097E0}
+.linkbox dl{margin:6px 0;line-height:23px;overflow:hidden}
+.linkbox dl dt{font-size:15px;float:left;margin-right:5px;}
+.linkbox dl dd{float:left;font-size:14px;}
+.linkbox dl dd a{margin:0 3px;display:inline-block}
+
+
+@media (max-width: 800px){
+	.container{width:auto}
+	.gutter{margin-left:3%;margin-right:3%}
+	.left-con,.right-con,.index-box .left-con{width:auto;float:none}
+	.hosp-list li,.resultlist .hosp-list li{width:48%}
+	.area-list dl dd{width:auto}
+	.m-logo{float:none;width:42%}
+	.head-full ul{margin-left:0;margin-top:10px;float:none;overflow:hidden}
+	.head-full ul li{margin:0 9px 0 0;line-height:35px}
+	.search-box{position:absolute;top:6px;left:48%}
+	.search-txt{width:51%}
+	.likeart-yy .txt-pic li{width:46%}
+	.curpos dd{font-size:14px}
+	.page-tab td a{padding: 0px 3px;}
+	.news li{float:none;width:100%;margin:8px 0}
+	.yy-nav a{width:31.33%;margin:1%;float:left}
+	.hosp-list a .img{height: 110px;}
+	.hosp-list a .img img{min-height: 110px;}
+	.hosp-list a p{height:46px;overflow:hidden}
+	.newslist li{float:none;width:auto;margin:3px 0}
+}

@@ -1,0 +1,40 @@
+document.write('<style type="text/css">'+
+'.c_0ae{ color: #0ae;}'+
+'.w1000_2{ width: 1000px; margin: 0 auto;}'+
+'.blue_top_fixed{ width: 100%; height: 35px;}'+
+'.blue_top_bg{ width: 100%; height: 34px; line-height: 34px; background-color: #fafafa; border-bottom: 1px solid #e6e6e6; z-index: 9999; position:fixed; top:0; left:0;_position:absolute; _bottom:auto; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-  (parseInt(this.currentStyle.marginBottom, 10)||0)));}'+
+'.blue_top{ height: 34px; overflow: hidden;}'+
+'.blue_top_left{ width: 500px; float: left;}'+
+'.blue_top_left_tishi{ color: #666; float: left;}'+
+'.user_login_mes{ float: left;}'+
+'.blue_top a{ color: #666; padding: 0 3px;}'+
+'.blue_top .c_999{ color: #999;}'+
+'.blue_top .c_0ae{ color: #0ae;}'+
+'.blue_top_right{ float: right;}'+
+'.blue_top_right span{ padding-left: 3px;}'+
+'</style>');
+
+document.write(
+'<div class="blue_top_fixed">'+
+	'<div class="blue_top_bg" id="top_fixed">'+
+		'<div class="blue_top w1000_2">'+
+			'<div class="blue_top_left">'+
+				''+
+				'<div class="user_login_mes">'+
+					'<a href="http://www.999ask.com/" target="_blank">邻医网首页</a>');
+									
+ document.write('</div>'+
+			'</div>'+
+			'<div class="blue_top_right">'+
+				'<a href="http://m.999ask.com/" target="_blank">手机端</a><span class="c_999">|</span>'+
+				'<a href="http://user.999ask.com/?m=question&a=add&from=1" target="_blank">免费咨询</a>');
+								
+ document.write('<span class="c_999">|</span><a href="http://user.999ask.com/?m=login" class="c_0ae" target="_self">请登录</a>'+
+				'<a href="http://user.999ask.com/?m=register" target="_self">免费注册</a>');
+				document.write('</div>'+
+		'</div>'+
+	'</div>'+
+'</div>');
+
+document.write('<div class="head">');
+document.write('</div>');
