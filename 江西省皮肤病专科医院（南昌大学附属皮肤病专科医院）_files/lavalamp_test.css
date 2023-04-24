@@ -1,0 +1,33 @@
+
+a:focus { outline: none; }
+
+#menu3 {
+
+}
+.topmenu3 {
+	padding: 0px;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0px;
+	position: relative;
+}
+.topmenu3 li {
+	float: left;
+	list-style: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px; display:block; width:100px; height:45px; text-align:center; line-height:45px; color:#7d7d7d; font-size:18px; font-weight:bold; z-index:40;
+}
+.topmenu3 li.back {
+	width: 9px;
+	height: 20px;
+	z-index: 18;
+	position: absolute;
+	color: #999999; background:url(../img/xz2.png) no-repeat; background-size:20px; background-position:bottom; bottom:-8px;
+}
+.topmenu3 li a {
+}
+ .topmenu3 li a:hover, .menu3 li a:active, .menu3 li a:visited {
+} 
+/*Ò»Á÷ËØ²ÄÍøwww.16sucai.com*/
